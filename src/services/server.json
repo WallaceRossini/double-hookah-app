@@ -1,0 +1,64 @@
+{
+
+  "category":[
+    {"key":"TOBACCO","title":"Essência"},
+    {"key":"BEER","title":"Cerveja"},
+    {"key":"DISTILLED","title":"Destilado"},
+    {"key":"NO_ALCOHOL","title":"Sem Àlcool"},
+    {"key":"ICE","title":"Gelo"},
+    {"key":"COAL","title":"Carvão"},
+    {"key":"DISPOSABLE","title":"Descartaveis"}
+  ],
+  "products":[
+    {
+      "id": "3309c604-1609-448f-befd-d69f36857ef1",
+      "name": "Fresh Watermelon",
+      "price": "10.00",
+      "detail": "A Watermelon Blend faz parte das receitas do livro “Fresh”. O sabor de melancia é mágico, te leva para um tempo de aventuras e jornadas. Os magos criaram essa essência para confraternizar com novos povos em suas viagens.",
+      "category": "TOBACCO",
+      "image": "https://double-hookah-s3.s3.us-east-1.amazonaws.com/bbdf7ac4c27036c4a066-fresh_watermelon.png",
+      "weight": "50g",
+      "brand": "NAY"
+    },
+    {
+      "id": "233cd03d-7c1c-4d9a-a543-b245d3d1a71b",
+      "name": "Cherry Blend",
+      "price": "10.00",
+      "detail": "A Cherry Blend tem características únicas. Os magos da Nay levaram o livro “Blends” para várias partes do mundo para conversas nunca reveladas. O sabor de cereja trouxe adeptos ao Team Nay por onde passou.",
+      "category": "TOBACCO",
+      "image": "https://double-hookah-s3.s3.us-east-1.amazonaws.com/12392adefaeceaccea99-cherry_blend.png",
+      "weight": "50g",
+      "brand": "NAY"
+    },
+    {
+      "id": "95e7fde0-cc71-4848-9db2-9579bba02e57",
+      "name": "Passion Blend",
+      "price": "10.00",
+      "detail": "Uma das mais raras receitas do livro “Blends” é a Passion Blend. Ela foi um dos sabores que poucas pessoas tiveram oportunidade de experimentar de tão exclusiva que era. Hoje, o sabor de maracujá já conquista milhares de seguidores.",
+      "category": "TOBACCO",
+      "image": "https://double-hookah-s3.s3.us-east-1.amazonaws.com/4d9e69b0baeea510949b-passion_blend.png",
+      "weight": "50g",
+      "brand": "NAY"
+    },
+    {
+      "id": "c2ddd407-6ef1-4d9b-a1b8-f4a54a41d22b",
+      "name": "Passion Blend",
+      "price": "10.00",
+      "detail": "Uma das mais raras receitas do livro “Blends” é a Passion Blend. Ela foi um dos sabores que poucas pessoas tiveram oportunidade de experimentar de tão exclusiva que era. Hoje, o sabor de maracujá já conquista milhares de seguidores.",
+      "category": "TOBACCO",
+      "image": "https://double-hookah-s3.s3.us-east-1.amazonaws.com/304ebe54123379a01797-passion_blend.png",
+      "weight": "50g",
+      "brand": "NAY"
+    },
+    {
+      "id": "8dca5ceb-1a9b-44b8-861b-f0f55edb0bb5",
+      "name": "Passion Blend",
+      "price": "10.00",
+      "detail": "Uma das mais raras receitas do livro “Blends” é a Passion Blend. Ela foi um dos sabores que poucas pessoas tiveram oportunidade de experimentar de tão exclusiva que era. Hoje, o sabor de maracujá já conquista milhares de seguidores.",
+      "category": "TOBACCO",
+      "image": "https://double-hookah-s3.s3.us-east-1.amazonaws.com/304ebe54123379a01797-passion_blend.png",
+      "weight": "50g",
+      "brand": "NAY"
+    }
+  ]
+}
