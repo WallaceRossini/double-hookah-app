@@ -10,8 +10,11 @@ export default function App() {
     Ubuntu_300Light,
     Ubuntu_400Regular,
     Ubuntu_500Medium,
-    Ubuntu_700Bold
+    Ubuntu_700Bold,
+    IcoMoon:require('./src/resources/icon/icomoon.ttf'),
   });
+
+
 
   if(!fontsLoaded)
       return <AppLoading />

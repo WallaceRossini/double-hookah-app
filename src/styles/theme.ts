@@ -8,7 +8,6 @@ export const theme = {
     info: '#2F80ED',
     white: '#FFFFFF',
   },
-
   fonts: {
     light: 'Ubuntu_300Light',
     regular: 'Ubuntu_400Regular',
@@ -16,3 +15,26 @@ export const theme = {
     bold: 'Ubuntu_700Bold',
   }
 };
+
+export const type_message = [
+  {
+    type: 'success',
+    image: require('../assets/checked.png'),
+    color: theme.colors.success
+  },
+  {
+    type: 'danger',
+    image: require('../assets/cancel.png'),
+    color: theme.colors.danger
+  },
+  {
+    type: 'warning',
+    image: require('../assets/warning.png'),
+    color: theme.colors.warning
+  },
+  {
+    type: 'info',
+    image: require('../assets/info.png'),
+    color: theme.colors.info
+  },
+]

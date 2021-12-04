@@ -2,9 +2,8 @@ import { Ubuntu_700Bold } from '@expo-google-fonts/ubuntu';
 import React from 'react'
 import { Image, StyleSheet, Text, TouchableOpacity, TouchableOpacityProps, View } from 'react-native'
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
-import { ProductProps } from '../libs/storage';
+import { curreryFormate, ProductProps } from '../libs/storage';
 import { theme } from '../styles/theme';
-
 
 interface Props extends RectButtonProps {
   data: ProductProps
@@ -21,12 +20,12 @@ export const ProductCard = ({ data, ...rest }: Props) => {
       <Text style={styles.text}>
         {data.name}
       </Text>
-      <View style={{flexDirection:'row', alignItems:'center'}}>
+      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
         <Text style={styles.sigla}>
           $
         </Text>
         <Text style={styles.price}>
-          {data.price}
+          {curreryFormate(data.price)}
         </Text>
       </View>
     </RectButton>
@@ -50,15 +49,18 @@ const styles = StyleSheet.create({
   },
   text: {
     color: theme.colors.secondary,
-    fontFamily: theme.fonts.bold
+    fontFamily: theme.fonts.medium,
+    fontSize: 16,
+    marginBottom: 5
+
   },
   sigla: {
-    fontSize: 10,
+    fontSize: 13,
     color: theme.colors.primary,
     fontFamily: theme.fonts.bold
   },
   price: {
-    fontSize: 15,
+    fontSize: 18,
     color: theme.colors.secondary,
     fontFamily: theme.fonts.bold
   }

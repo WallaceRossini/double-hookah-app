@@ -56,11 +56,10 @@ export function UserIdentification() {
         style={styles.container}
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       >
-
         <GoBack />
 
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-
+        
 
           <View style={styles.content}>
 

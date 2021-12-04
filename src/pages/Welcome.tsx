@@ -18,11 +18,11 @@ export function Welcome() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle={'dark-content'} />
+      <StatusBar barStyle={'light-content'} />
       <View style={styles.wrapper}>
         <Text style={styles.title}>
           Tudo de bom {'\n'}
-          para seus roĺes de {'\n'}
+          para seus roles de {'\n'}
           forma fácil
         </Text>
 

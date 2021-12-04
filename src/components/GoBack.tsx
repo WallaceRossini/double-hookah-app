@@ -4,17 +4,20 @@ import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
 import { theme } from "../styles/theme";
 
+interface Props {
+  auto?: boolean
+}
 
-export function GoBack() {
+export function GoBack({ auto }: Props) {
 
   const navigation = useNavigation()
 
-  function handleGoBack(){
+  function handleGoBack() {
     navigation.goBack()
   }
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { width: auto ? 'auto' : '100%', paddingHorizontal: auto ? 0 : 20 }]} >
       <TouchableOpacity
         style={styles.button}
         activeOpacity={0.7}
@@ -28,9 +31,8 @@ export function GoBack() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 20,
-    paddingVertical:20,
-    width: '100%',
+    paddingVertical: 20,
+    justifyContent: 'flex-end'
   },
   button: {
     borderColor: theme.colors.primary,
